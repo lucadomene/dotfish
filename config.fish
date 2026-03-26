@@ -9,3 +9,4 @@ end
 set -gx EDITOR nvim
 
 fish_ssh_agent
+set -gx SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
