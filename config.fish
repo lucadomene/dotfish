@@ -12,3 +12,5 @@ fish_add_path /home/lucadomene/.local/bin
 
 fish_ssh_agent
 set -gx SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
+
+zoxide init fish | source
